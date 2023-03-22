@@ -1,0 +1,131 @@
+# dune ut
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Workspace root:
+# /Users/sarang_hadagali/Code/School_Work/Semester_4/CS496/PLaF/src/proc
+# Auto-detected concurrency: 8
+$ /Users/sarang_hadagali/.opam/default/bin/ocamlc.opt -config > /var/folders/0r/tpdl3j9x3yl6kh0fphtzcdjw0000gn/T/dune_2f4a8e_output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path =
+#      Some External "/Users/sarang_hadagali/.opam/default/lib/toplevel"
+#  ; ocaml_bin = External "/Users/sarang_hadagali/.opam/default/bin"
+#  ; ocaml = Ok External "/Users/sarang_hadagali/.opam/default/bin/ocaml"
+#  ; ocamlc = External "/Users/sarang_hadagali/.opam/default/bin/ocamlc.opt"
+#  ; ocamlopt =
+#      Ok External "/Users/sarang_hadagali/.opam/default/bin/ocamlopt.opt"
+#  ; ocamldep =
+#      Ok External "/Users/sarang_hadagali/.opam/default/bin/ocamldep.opt"
+#  ; ocamlmklib =
+#      Ok External "/Users/sarang_hadagali/.opam/default/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" :
+#            "/Users/sarang_hadagali/.opam/default/lib/ocaml:/Users/sarang_hadagali/.opam/default/lib"
+#        ; "DUNE_OCAML_STDLIB" :
+#            "/Users/sarang_hadagali/.opam/default/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" :
+#            "/Users/sarang_hadagali/Code/School_Work/Semester_4/CS496/PLaF/src/proc"
+#        ; "INSIDE_DUNE" :
+#            "/Users/sarang_hadagali/Code/School_Work/Semester_4/CS496/PLaF/src/proc/_build/default"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/Users/sarang_hadagali/Code/School_Work/Semester_4/CS496/PLaF/src/proc/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/Users/sarang_hadagali/Code/School_Work/Semester_4/CS496/PLaF/src/proc/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/Users/sarang_hadagali/Code/School_Work/Semester_4/CS496/PLaF/src/proc/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_paths =
+#      [ External "/Users/sarang_hadagali/.opam/default/lib/ocaml"
+#      ; External "/Users/sarang_hadagali/.opam/default/lib"
+#      ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "5.0.0"
+#      ; standard_library_default =
+#          "/Users/sarang_hadagali/.opam/default/lib/ocaml"
+#      ; standard_library = "/Users/sarang_hadagali/.opam/default/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "cc"
+#      ; ocamlc_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-pthread" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64" ]
+#      ; ocamlopt_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-pthread" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64" ]
+#      ; bytecomp_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-pthread"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-pthread"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ]
+#      ; native_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_pack_linker = [ "ld"; "-r"; "-o" ]
+#      ; cc_profile = []
+#      ; architecture = "arm64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "macosx"
+#      ; asm = [ "cc"; "-c"; "-Wno-trigraphs" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "aarch64-apple-darwin21.6.0"
+#      ; target = "aarch64-apple-darwin21.6.0"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X032"
+#      ; cmi_magic_number = "Caml1999I032"
+#      ; cmo_magic_number = "Caml1999O032"
+#      ; cma_magic_number = "Caml1999A032"
+#      ; cmx_magic_number = "Caml1999Y032"
+#      ; cmxa_magic_number = "Caml1999Z032"
+#      ; ast_impl_magic_number = "Caml1999M032"
+#      ; ast_intf_magic_number = "Caml1999N032"
+#      ; cmxs_magic_number = "Caml1999D032"
+#      ; cmt_magic_number = "Caml1999T032"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default && /Users/sarang_hadagali/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -bin-annot -I lib/.proc.objs/byte -no-alias-deps -opaque -o lib/.proc.objs/byte/proc.cmo -c -impl lib/proc.ml-gen)
+$ (cd _build/default && /Users/sarang_hadagali/.opam/default/bin/ocamldep.opt -modules -impl lib/ds.ml) > _build/default/lib/.proc.objs/ds.ml.d
+$ (cd _build/default && /Users/sarang_hadagali/.opam/default/bin/ocamldep.opt -modules -impl lib/interp.ml) > _build/default/lib/.proc.objs/interp.ml.d
+$ (cd _build/default && /Users/sarang_hadagali/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I lib/.proc.objs/byte -I /Users/sarang_hadagali/.opam/default/lib/menhirLib -I /Users/sarang_hadagali/.opam/default/lib/parser_plaf -no-alias-deps -opaque -open Proc -o lib/.proc.objs/byte/proc__Ds.cmo -c -impl lib/ds.ml)
+$ (cd _build/default && /Users/sarang_hadagali/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I lib/.proc.objs/byte -I /Users/sarang_hadagali/.opam/default/lib/menhirLib -I /Users/sarang_hadagali/.opam/default/lib/parser_plaf -no-alias-deps -opaque -open Proc -o lib/.proc.objs/byte/proc__Interp.cmo -c -impl lib/interp.ml)
+$ (cd _build/default && /Users/sarang_hadagali/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -a -o lib/proc.cma lib/.proc.objs/byte/proc.cmo lib/.proc.objs/byte/proc__Ds.cmo lib/.proc.objs/byte/proc__Interp.cmo)
+$ (cd _build/default && /Users/sarang_hadagali/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -24 -g -bin-annot -I lib/.utop/.utop.eobjs/byte -I /Users/sarang_hadagali/.opam/default/lib/bytes -I /Users/sarang_hadagali/.opam/default/lib/findlib -I /Users/sarang_hadagali/.opam/default/lib/lambda-term -I /Users/sarang_hadagali/.opam/default/lib/logs -I /Users/sarang_hadagali/.opam/default/lib/lwt -I /Users/sarang_hadagali/.opam/default/lib/lwt/unix -I /Users/sarang_hadagali/.opam/default/lib/lwt_react -I /Users/sarang_hadagali/.opam/default/lib/menhirLib -I /Users/sarang_hadagali/.opam/default/lib/mew -I /Users/sarang_hadagali/.opam/default/lib/mew_vi -I /Users/sarang_hadagali/.opam/default/lib/ocaml/compiler-libs -I /Users/sarang_hadagali/.opam/default/lib/ocaml/threads -I /Users/sarang_hadagali/.opam/default/lib/ocaml/unix -I /Users/sarang_hadagali/.opam/default/lib/ocplib-endian -I /Users/sarang_hadagali/.opam/default/lib/ocplib-endian/bigstring -I /Users/sarang_hadagali/.opam/default/lib/parser_plaf -I /Users/sarang_hadagali/.opam/default/lib/react -I /Users/sarang_hadagali/.opam/default/lib/result -I /Users/sarang_hadagali/.opam/default/lib/trie -I /Users/sarang_hadagali/.opam/default/lib/uchar -I /Users/sarang_hadagali/.opam/default/lib/utop -I /Users/sarang_hadagali/.opam/default/lib/uucp -I /Users/sarang_hadagali/.opam/default/lib/uuseg -I /Users/sarang_hadagali/.opam/default/lib/uutf -I /Users/sarang_hadagali/.opam/default/lib/zed -I lib/.proc.objs/byte -no-alias-deps -o lib/.utop/.utop.eobjs/byte/dune__exe__Utop.cmo -c -impl lib/.utop/utop.ml-gen)
+$ (cd _build/default && /Users/sarang_hadagali/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -24 -g -o lib/.utop/utop.exe -output-complete-exe /Users/sarang_hadagali/.opam/default/lib/ocaml/compiler-libs/ocamlcommon.cma /Users/sarang_hadagali/.opam/default/lib/ocaml/compiler-libs/ocamlbytecomp.cma /Users/sarang_hadagali/.opam/default/lib/ocaml/compiler-libs/ocamltoplevel.cma /Users/sarang_hadagali/.opam/default/lib/findlib/findlib.cma /Users/sarang_hadagali/.opam/default/lib/findlib/findlib_top.cma /Users/sarang_hadagali/.opam/default/lib/logs/logs.cma /Users/sarang_hadagali/.opam/default/lib/lwt/lwt.cma /Users/sarang_hadagali/.opam/default/lib/logs/logs_lwt.cma /Users/sarang_hadagali/.opam/default/lib/ocplib-endian/ocplib_endian.cma /Users/sarang_hadagali/.opam/default/lib/ocplib-endian/bigstring/ocplib_endian_bigstring.cma /Users/sarang_hadagali/.opam/default/lib/ocaml/unix/unix.cma /Users/sarang_hadagali/.opam/default/lib/ocaml/threads/threads.cma /Users/sarang_hadagali/.opam/default/lib/lwt/unix/lwt_unix.cma -I /Users/sarang_hadagali/.opam/default/lib/lwt/unix /Users/sarang_hadagali/.opam/default/lib/react/react.cma /Users/sarang_hadagali/.opam/default/lib/lwt_react/lwt_react.cma /Users/sarang_hadagali/.opam/default/lib/result/result.cma /Users/sarang_hadagali/.opam/default/lib/uutf/uutf.cma /Users/sarang_hadagali/.opam/default/lib/uucp/uucp.cma /Users/sarang_hadagali/.opam/default/lib/uuseg/uuseg.cma /Users/sarang_hadagali/.opam/default/lib/zed/zed.cma /Users/sarang_hadagali/.opam/default/lib/trie/trie.cma /Users/sarang_hadagali/.opam/default/lib/mew/mew.cma /Users/sarang_hadagali/.opam/default/lib/mew_vi/mew_vi.cma /Users/sarang_hadagali/.opam/default/lib/lambda-term/lambda_term.cma -I /Users/sarang_hadagali/.opam/default/lib/lambda-term /Users/sarang_hadagali/.opam/default/lib/utop/uTop.cma /Users/sarang_hadagali/.opam/default/lib/menhirLib/menhirLib.cma /Users/sarang_hadagali/.opam/default/lib/parser_plaf/parser_plaf.cma lib/proc.cma lib/.utop/.utop.eobjs/byte/dune__exe__Utop.cmo -linkall -warn-error -31)
